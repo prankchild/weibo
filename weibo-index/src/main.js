@@ -21,7 +21,6 @@ Vue.use(Vant);
 Vue.use(VueParticles)
 Vue.use(Dialog);
 axios.defaults.baseURL = "http://localhost:3000/"
-// axios.defaults.baseURL = "http://182.254.209.215:3000/"
 axios.withCredentials = true
 axios.defaults.withCredentials = true
 Vue.prototype.$http = axios;
